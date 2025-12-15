@@ -30,10 +30,9 @@
       "path": "lang/en.json"
     }
   ],
-  "url": "https://github.com/VOTRE-USERNAME/conan-ai-translator",
-  "manifest": "https://raw.githubusercontent.com/VOTRE-USERNAME/conan-ai-translator/main/manifest.json",
-  "download": "https://github.com/VOTRE-USERNAME/conan-ai-translator/archive/refs/heads/main.zip",
-  "_comment": "Remplacez VOTRE-USERNAME par votre nom d'utilisateur GitHub/GitLab",
+  "url": "https://github.com/L3ViKk/conan-ai-translator",
+  "manifest": "https://raw.githubusercontent.com/L3ViKk/conan-ai-translator/main/manifest.json",
+  "download": "https://github.com/L3ViKk/conan-ai-translator/archive/refs/heads/main.zip",
   "system": "conan2d20"
 }
 
