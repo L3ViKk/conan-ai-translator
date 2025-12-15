@@ -1,0 +1,28 @@
+<div class="conan-translate-dialog">
+  <p>{{localize "CONAN_TRANSLATOR.DialogDescription"}}</p>
+  
+  <div class="compendium-list">
+    <h3>{{localize "CONAN_TRANSLATOR.SelectCompendiums"}}</h3>
+    
+    <div class="compendium-checkboxes">
+      {{#each compendiums}}
+      <label class="compendium-item">
+        <input type="checkbox" value="{{id}}" checked>
+        <span class="compendium-name">{{name}}</span>
+        <span class="compendium-type">({{type}})</span>
+      </label>
+      {{/each}}
+    </div>
+    
+    <div class="dialog-actions">
+      <button type="button" class="select-all">{{localize "CONAN_TRANSLATOR.SelectAll"}}</button>
+      <button type="button" class="select-none">{{localize "CONAN_TRANSLATOR.SelectNone"}}</button>
+    </div>
+  </div>
+  
+  <div class="translation-settings">
+    <h3>{{localize "CONAN_TRANSLATOR.Settings"}}</h3>
+    <p class="hint">{{localize "CONAN_TRANSLATOR.SettingsHint"}}</p>
+  </div>
+</div>
+

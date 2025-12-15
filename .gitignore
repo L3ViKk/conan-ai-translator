@@ -1,0 +1,19 @@
+# Fichiers à ignorer pour Git
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+node_modules/
+*.zip
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+

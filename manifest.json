@@ -1,0 +1,39 @@
+{
+  "id": "conan-ai-translator",
+  "title": "Conan AI Translator",
+  "description": "Module pour traduire automatiquement les compendiums Conan 2d20 en français en utilisant DeepSeek v3.1 via Ollama",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Votre Nom"
+    }
+  ],
+  "esmodules": [
+    "scripts/translate-compendium.js"
+  ],
+  "styles": [
+    "styles/translate-module.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/VOTRE-USERNAME/conan-ai-translator",
+  "manifest": "https://raw.githubusercontent.com/VOTRE-USERNAME/conan-ai-translator/main/manifest.json",
+  "download": "https://github.com/VOTRE-USERNAME/conan-ai-translator/archive/refs/heads/main.zip",
+  "_comment": "Remplacez VOTRE-USERNAME par votre nom d'utilisateur GitHub/GitLab",
+  "system": "conan2d20"
+}
+

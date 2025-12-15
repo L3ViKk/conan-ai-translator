@@ -1,0 +1,21 @@
+{
+  "CONAN_TRANSLATOR": {
+    "TranslateAll": "Translate compendiums",
+    "DialogTitle": "Automatic compendium translation",
+    "DialogDescription": "Select the compendiums to translate into French using DeepSeek v3.1 via Ollama.",
+    "SelectCompendiums": "Available compendiums",
+    "SelectAll": "Select all",
+    "SelectNone": "Select none",
+    "Translate": "Translate",
+    "Cancel": "Cancel",
+    "ProgressTitle": "Translation in progress...",
+    "Success": "{count} item(s) translated successfully!",
+    "Settings": "Settings",
+    "SettingsHint": "Ollama settings can be modified in world settings.",
+    "Errors": {
+      "OllamaNotAvailable": "Ollama is not available. Check that Ollama is running and the URL is correct.",
+      "TranslationFailed": "Translation error: {error}"
+    }
+  }
+}
+

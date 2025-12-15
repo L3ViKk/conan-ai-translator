@@ -1,0 +1,23 @@
+{
+  "CONAN_TRANSLATOR": {
+    "TranslateAll": "Traduire les compendiums",
+    "DialogTitle": "Traduction automatique des compendiums",
+    "DialogDescription": "Sélectionnez les compendiums à traduire en français en utilisant DeepSeek v3.1 via Ollama.",
+    "SelectCompendiums": "Compendiums disponibles",
+    "SelectAll": "Tout sélectionner",
+    "SelectNone": "Tout désélectionner",
+    "Translate": "Traduire",
+    "Cancel": "Annuler",
+    "ProgressTitle": "Traduction en cours...",
+    "Success": "{count} élément(s) traduit(s) avec succès!",
+    "Settings": "Paramètres",
+    "SettingsHint": "Les paramètres Ollama peuvent être modifiés dans les paramètres du monde.",
+    "TranslationQuality": "Qualité de traduction",
+    "TranslationQualityHint": "Valeur élevée = traductions plus créatives et naturelles. Valeur faible = traductions plus littérales.",
+    "Errors": {
+      "OllamaNotAvailable": "Ollama n'est pas disponible. Vérifiez que Ollama est démarré et que l'URL est correcte.",
+      "TranslationFailed": "Erreur lors de la traduction: {error}"
+    }
+  }
+}
+
